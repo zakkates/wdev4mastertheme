@@ -1,0 +1,13 @@
+body.login {}
+
+.login h1 a {background: url('../screenshot.png') no-repeat center; width: 100%; height: 300px; display: block; margin: 0 auto 25px; padding: 0;
+}
+.login h1::before {content: 'Simple Edge Boilerplate'; 
+display: block;
+width: 100%;
+padding: 15px 0;
+text-align: center;}
+
+#login form#loginform {margin:0;}
+
+#login { width: 400px;}

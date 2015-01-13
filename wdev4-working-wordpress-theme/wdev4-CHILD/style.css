@@ -1,0 +1,140 @@
+/*
+ Theme Name:   Wdev4 CHILD
+ Theme URI:    http://www.wdev4.com/1
+ Description:  Wdev4 Child - This theme is dependent on its Parent Theme. Do NOT Delete the Parent Theme.
+ Author:       Zakery Kates
+ Author URI:   https://twitter.com/zakkates
+ Template:     wdev4-BASE
+ Version:      1.0.0
+ Text Domain:  wdev4-CHILD
+*/
+
+/* ==== normalize ========================================================== */
+@import url('css/normalize.css');
+/* =============================================================================
+----------- General Content -----------
+========================================================================== */
+/*links */
+a { color: #00e; }
+a:hover { color: #06e; text-decoration: none;}
+a:focus { outline: thin dotted; }
+/* Also: Customize the background color to match your design */
+::-moz-selection { background: #1081c5; color: #fff; text-shadow: none; }
+::selection { background: #1081c5; color: #fff; text-shadow: none; }
+/* Block Quotes */
+blockquote {background: yellow; color: red; padding: 25px; display:block; width: 80%; margin: 10px auto;}
+
+
+body {
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-moz-font-feature-settings: "liga", "kern";}
+.container {width: 1024px; max-width: 1024px; width: 100%; padding: 0 12px; margin: 0 auto; position: relative;}
+
+h1, h2, h3 {}
+p {}
+
+img.alignright {display: block; float: right; margin: 0 0 10px 10px;  max-width: 100%; }
+img.alignleft {display: block; float: left; margin: 0 10px 10px 0 ;  max-width: 100%; }
+img.aligncenter {display: block; margin: 0 auto 10px; width: 90%; height: auto; clear: both; max-width: 100%;  }
+img.size-large {width: 40%; height: auto;  }
+img.size-full {width: 40%; height: auto; }
+img.size-medium {width: 40%; height: auto; }
+img.size-thumbnail {width: 40%; height: auto; }
+img.aligncenter.size-large, img.aligncenter.size-full, img.aligncenter.size-medium, img.aligncenter.size-thumbnail {width: 90%; height: auto; clear: both; } 
+
+div.wp-caption {padding: 8px; background: #efefef; text-align: center; font-style: italic; }
+p.wp-caption-text {padding: 0px; margin: 0 auto !important;}
+
+div.wp-caption.alignright {display: block; float: right; margin: 0 0 10px 10px;  height: auto; }
+div.wp-caption.alignleft {display: block; float: left; margin: 0 10px 10px 0 ;  height: auto; }
+div.wp-caption.aligncenter {display: block; margin: 0 auto 10px; width: 90%; height: auto; clear: both; }
+div.wp-caption p.wp-caption-text {margin: 0 ; padding: 0 ; }
+div.wp-caption img, div.wp-caption.alignright img, div.wp-caption.alignleft img, div.wp-caption.aligncenter img {width: 100%; height: auto; margin: 0 auto 5px; }
+
+@media (max-width: 480px) {
+img.size-large, img.size-full, img.size-medium, img.size-thumbnail, 
+img.aligncenter.size-large, img.aligncenter.size-full, img.aligncenter.size-medium, 
+img.aligncenter.size-thumbnail,
+img.alignright, img.alignleft, img.aligncenter {
+    width: 90% !important; height: auto !important; float: none !important; display: block !important; margin: 0 auto 10px !important; clear: both; 
+    }
+div.wp-caption {    width: 90% !important; height: auto ; float: none  !important; display: block; margin: 0 auto 10px  !important; clear: both; }
+}
+
+
+/* =============================================================================
+----------- HEADER -----------
+========================================================================== */
+header {}
+form#searchform {position: absolute; top: 15px; right: 0 ;  } 
+
+/* =============================================================================
+----------- NAVIGATION ----------- 
+========================================================================== */
+nav {}
+nav ul {}
+nav ul li { position: relative; display: inline-block; *display: inline; *zoom: 1;  }
+nav ul li a {text-decoration: none; display: block; padding: 7px 12px;  }
+nav ul li a:hover {background: #efefef; }
+
+nav ul ul {display: none; position: absolute; z-index: 999;  }
+nav ul li:hover ul {display: block; position: absolute; width: 220px; background: #efefef;}
+nav ul li:hover ul li {width: 100%;}
+nav ul li:hover ul li a:hover {background: #ccc;}
+
+/* =============================================================================
+----------- INTERIOR PAGES -----------
+========================================================================== */
+.gallery-caption {}
+
+
+/* =============================================================================
+----------- ASIDE -----------
+========================================================================== */
+aside { width: 20%; float: left; }
+
+/* =============================================================================
+----------- BLOG -----------
+========================================================================== */
+div.base-theme-archive-page {width: 80%; float: left; padding: 0 5% 0 0; }
+
+div.next-posts {float: right; } 
+div.prev-posts {float: left; }
+
+.sticky {}
+.bypostauthor {}
+
+/* =============================================================================
+----------- FOOTER -----------
+========================================================================== */
+footer {}
+
+
+/* =============================================================================
+----------- BLANK -----------
+========================================================================== */
+
+/* =============================================================================
+----------- BLANK -----------
+========================================================================== */
+
+/* =============================================================================
+----------- BLANK -----------
+========================================================================== */
+
+/* =============================================================================
+----------- BLANK -----------
+========================================================================== */
+
+
+/* =============================================================================
+----------- SHORTCODES -----------
+========================================================================== */
+
+
+
+/* =============================================================================
+----------- BUTTONS -----------
+========================================================================== */

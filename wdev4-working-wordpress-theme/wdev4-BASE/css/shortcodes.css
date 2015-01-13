@@ -1,0 +1,10 @@
+a.button {
+text-align:center; text-decoration:none;   text-transform: uppercase; padding: 7px 20px; margin: 0px 0 10px 0;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+display: inline-block; *display: inline; *zoom: 1; 
+}
+a.button:hover {position: relative; top: 3px; }
+a.blue {color: #fff; background: #23306D;  }
+a.blue:hover {color: #fff;}
